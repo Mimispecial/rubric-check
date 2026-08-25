@@ -1,0 +1,33 @@
+{
+  "network": "studionet",
+  "chain_id": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "owner_wallet_address": "0x59dfC66F9be899802325E272d25C74834733eE33",
+  "contract_address": "0x8d35B6784E8d0E068b17dA4A1b4316863B2cC62C",
+  "deployment_transaction_hash": "0x79b8cd19cbf5fab933ef5b456ae95b83dc2b0bffe0e52eee59d557f1f554176f",
+  "intelligent_transaction_hash": "0xfd528686c42c4e1b6a8115c4bd712471dcd70eb264865ad2830b2b67aa3cfc98",
+  "verified_on": "2026-08-25",
+  "verification": {
+    "transaction_execution_succeeded": true,
+    "status_name": "FINALIZED",
+    "consensus_guard": "result_name absent or AGREE/MAJORITY_AGREE",
+    "execution_guard": "tx_execution_result_name absent or FINISHED_WITH_RETURN",
+    "state_read": "LATEST_FINAL",
+    "observed": {
+      "audit_label": "CLEAR",
+      "issue_code": "NONE"
+    }
+  },
+  "source": {
+    "path": "contracts/rubric_check.py",
+    "sha256": "45bfcdb8b4144c45fbe9cc89eccf01d7cf88278355115e33b3d47d525c161423",
+    "genvm_runner": "py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6"
+  },
+  "wallet_policy": "Mimi-only encrypted keystores outside the workspace; no wallet from another owner and no secret committed",
+  "tooling": {
+    "genvm_linter": "0.11.0",
+    "genlayer_test": "0.29.2",
+    "pyright": "1.1.411",
+    "pytest": "9.1.1"
+  }
+}
